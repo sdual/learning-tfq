@@ -1,7 +1,0 @@
-jupyter==1.0.0
-numpy==1.17.4
-pandas==0.25.3
-matplotlib==3.1.2
-scipy==1.4.1
-scikit-learn==0.22.2
-tensorflow-quantum==0.2.0

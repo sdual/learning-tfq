@@ -9,8 +9,9 @@ RUN apt-get update \
   && pip3 install --upgrade pip \
   && apt-get install -y gcc-7 g++-7 cmake git
 
-COPY docker/requirements.txt requirements.txt
 COPY docker/start_notebook.sh start_notebook.sh
+COPY docker/sync_module.sh sync_module.sh
+COPY notebook/requirements.txt requirements.txt
 
 RUN mkdir notebook
 
