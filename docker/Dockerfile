@@ -15,6 +15,6 @@ COPY notebook/requirements.txt requirements.txt
 
 RUN mkdir notebook
 
-RUN pip3 install -U pip && pip3 install -r requirements.txt
+RUN pip3 install -U pip && pip3 install -U setuptools && pip3 install -r requirements.txt
 
 ENTRYPOINT ["/start_notebook.sh"]
