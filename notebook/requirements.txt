@@ -5,4 +5,4 @@ matplotlib==3.1.2
 scipy==1.4.1
 scikit-learn==0.22.2
 tensorflow-quantum==0.2.0
-tensorflow==2.1.2
+tensorflow==2.5.0
